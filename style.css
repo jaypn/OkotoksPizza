@@ -1,0 +1,49 @@
+html {
+    background-image: url(https://img.freepik.com/free-photo/slice-delicious-pizza-with-ingredients-textured-wooden-background_23-2147926094.jpg?size=626&ext=jpg);
+}
+
+
+p {
+    color: blueviolet;
+    font-family: monospace;
+    font-style: italic;
+}
+body { color: chartreuse;
+
+}
+div h1 {
+    color: darkgreen;
+}
+boy >h1 {
+    color: darkslategray;
+    font-style: italic;
+}
+h1 + p {
+      color: darkblue;
+}
+div >h1 {
+    font-style: italic;
+    color: darkgray;
+
+}
+a:hover { font-size: 1.5rem;
+
+}
+a:link {color: floralwhite;
+    font-family: monospace;
+    text-decoration: hotpink;
+
+}
+a:visited {
+    color: gold;
+}
+a:active {
+    color: grey;
+    text-decoration: underline;
+}
+ article >h1 {
+     font-style: italic;
+ }
+ #logo {
+     margin-left: 500;
+ }
