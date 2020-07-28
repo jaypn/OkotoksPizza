@@ -124,7 +124,19 @@ a:active {
 #homecontent {
     background-image: url(https://c8.alamy.com/comp/TXTHWR/dark-old-wooden-table-texture-background-top-view-vertical-wooden-background-wood-material-background-wallpaper-texture-concept-old-brown-board-i-TXTHWR.jpg);
 }
+#highlighted {
+    height: 5vw;
+    background-color: gold;
+    transition-property: height;
+    transition-duration: 9s;
+    transition-timing-function: ease-in-out;
 
+
+}
+#highlighted:hover {
+   height: 10vw;
+
+}
 
 
 
