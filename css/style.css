@@ -1,0 +1,220 @@
+* {
+  margin: 0vw;
+  padding: 0vw;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 3vw;
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  font-style: italic;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  color: lavender;
+}
+
+a:hover {
+  font-size: 1.5rem;
+}
+
+a:link {
+  color: floralwhite;
+  font-family: monospace;
+  -webkit-text-decoration: hotpink;
+          text-decoration: hotpink;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:active {
+  color: grey;
+  text-decoration: underline;
+}
+
+article > h1 {
+  font-style: italic;
+}
+
+#logo {
+  margin-left: 500;
+}
+
+#menu-header {
+  background-color: green;
+  width: 100%;
+  min-height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-column-gap: 3vw;
+          column-gap: 3vw;
+}
+
+#Deal {
+  width: 90%;
+  min-height: 35vh;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu-content {
+  width: 90%;
+  min-height: 70vh;
+  -ms-grid-rows: (minmax(250px, 1fr))[auto-fit];
+      grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#menu-footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  min-height: 20vh;
+  background-color: blue;
+}
+
+#homeheader {
+  background-color: green;
+  width: 100%;
+  min-height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-column-gap: 3vw;
+          column-gap: 3vw;
+}
+
+#homecontent {
+  width: 90%;
+  min-height: 80vh;
+  -ms-grid-rows: (minmax(250px, 1fr))[auto-fit];
+      grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+#homefooter {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  min-height: 10vh;
+  background-color: blue;
+}
+
+#aboutusheader {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: green;
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  min-height: 10vh;
+}
+
+#home1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#home2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#highlighted {
+  height: 5vw;
+  background-color: gold;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 9s;
+          transition-duration: 9s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+#highlighted:hover {
+  height: 10vw;
+}
+
+.slide {
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  position: absolute;
+}
+
+@-webkit-keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+@mixin animateFont ($font-size, $animation-duration) {
+    font-size: $font-size;
+    font-weight: bolder;
+    transition: all 3s ease-in-out;
+    color: lightcoral;
+}
